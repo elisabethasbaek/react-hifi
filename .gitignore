@@ -4,6 +4,9 @@
 node_modules
 dist
 thumbs.db
+.env
+.cache
+package-lock.json
 
 # Logs
 logs
