@@ -1,0 +1,27 @@
+.primaryNavBar{
+    background: #000;
+    border-top: 1px solid #85855C;
+    grid-area: 2/1/3/2;
+}
+
+.primaryNavBar ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.primaryNavBar li{
+    list-style: none;
+}
+
+.primaryNavBar .navbarLink{
+    padding: 0 0.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #EEEFF3;
+    line-height: 3rem;
+    font-size: 0.6rem;
+}
