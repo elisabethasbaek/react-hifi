@@ -1,18 +1,28 @@
 .shopDiv{
     display: grid;
-    grid-template-rows: repeat(4, auto);
-    max-width: 10vw;
-    margin: 0.5rem;
-
-    &__image{
+    grid-template-rows: 30vh repeat(3, auto);
+    max-width: 15vw;
+    justify-self: center;
+    margin: 3rem 0;
+    
+    &__imageContainer{
         width: 100%;
-        height: auto;
-        display: block;
+        display: grid;
+        align-content: center;
+        border: 1px solid hotpink;
+        
+        &__image{
+            width: 100%;
+            max-height: 29.8vh;
+            display: block;
+            object-fit: cover;
+        }
     }
     
     &__description{
         color: hotpink;
-        font-weight: bold;      
+        font-weight: bold;
+        text-decoration: none;    
     }
 
     &__price{

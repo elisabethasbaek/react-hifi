@@ -10,6 +10,7 @@ import Blog from "./pages/Blog";
 import Events from "./pages/Events";
 import Shop from "./pages/Shop";
 import ContactUs from "./pages/ContactUs";
+import SingleProduct from "./components/SingleProduct";
 
 function App(){
     return (
@@ -24,6 +25,7 @@ function App(){
                 <Events path="/events" />
                 <Shop path="/shop" />
                 <ContactUs path="/contactus" />
+                <SingleProduct path="/product/:sku" />
             </Router>
         </>
     );
